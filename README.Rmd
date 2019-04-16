@@ -33,5 +33,12 @@ df %>%
   kable
 ```
 
-Last generated: ```r Sys.Date()```
+#### Guesses:
 
+```{r echo=FALSE, message=F, warning=F}
+read_csv("Data.csv") %>% 
+  select(-Actual) %>% 
+  kable
+```
+
+Last generated: ```r Sys.Date()```
