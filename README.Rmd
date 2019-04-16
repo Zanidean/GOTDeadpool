@@ -3,18 +3,18 @@ title: "Game of Thrones Deadpool"
 output: github_document
 ---
 
-#### Rules:
+## Rules:
 * 1 point given to each player for correctly determining each character's end. 
 * An extra point will be rewarded for correctly guessing if they are turned to a White Walker.
 
-#### Prizes: 
+## Prizes: 
 
 * 1st: `$15`
 * 2nd: `$10`
 * 3rd: `$5`
 
 
-#### Current Standings:
+## Current Standings:
 
 ```{r echo=FALSE, message=F, warning=F}
 library(tidyverse)
@@ -33,7 +33,7 @@ read_csv("Data.csv") %>%
   kable
 ```
 
-#### Guesses:
+## Guesses:
 
 ```{r echo=FALSE, message=F, warning=F}
 read_csv("Data.csv") %>% 

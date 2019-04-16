@@ -1,21 +1,21 @@
 Game of Thrones Deadpool
 ================
 
-#### Rules:
+## Rules:
 
   - 1 point given to each player for correctly determining each
     character’s end.
   - An extra point will be rewarded for correctly guessing if they are
     turned to a White Walker.
 
-#### Prizes:
+## Prizes:
 
   - 1st: `$15`
   - 2nd: `$10`
   - 3rd:
 `$5`
 
-#### Current Standings:
+## Current Standings:
 
 | Player | Episode 1 | Episode 2 | Episode 3 | Episode 4 | Episode 5 | Episode 6 |
 | :----- | --------: | --------: | --------: | --------: | --------: | --------: |
@@ -26,7 +26,7 @@ Game of Thrones Deadpool
 | Nolan  |        15 |         0 |         0 |         0 |         0 |         0 |
 | Regan  |        24 |         0 |         0 |         0 |         0 |         0 |
 
-#### Guesses:
+## Guesses:
 
 | Character                                 | Joalee           | Alex         | Carly                  | Regan                  | Jeremy           | Nolan                  |
 | :---------------------------------------- | :--------------- | :----------- | :--------------------- | :--------------------- | :--------------- | :--------------------- |
