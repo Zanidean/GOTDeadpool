@@ -1,0 +1,22 @@
+---
+title: "Game of Thrones Deadpool"
+output: github_document
+---
+
+#### Current Standings
+
+```{r echo=FALSE, message=F, warning=F}
+library(sRa)
+library(readxl)
+library(knitr)
+df = read_excel("Data/Raw/Track Sheet GOT.xlsx") %>% 
+  gather(Player, Guess, -Character, -Actual) %>% 
+  mutate(Score = ifelse(Actual == Guess, 1, 0))
+
+df %>% 
+  group_by(Player) %>% 
+  summarise(Score = sum(Score, na.rm = T)) %>% 
+  arrange(desc(Score)) %>% 
+  kable
+```
+
