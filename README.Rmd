@@ -20,16 +20,16 @@ output: github_document
 library(tidyverse)
 library(knitr)
 
-df = read_csv("Data.csv") %>% 
-  gather(Player, Guess, -Character, -Actual) %>% 
+read_csv("Data.csv") %>% 
+  gather(Player, Guess, -c(1:7)) %>% 
+  gather(Episode, Actual, -Character, -Guess, -Player) %>% 
   mutate(Score = ifelse(Actual == Guess, 1, 0),
          # assessing if it's a white walker guess, then it's worth 2
-         Score = ifelse(Actual == "White Walker" & Guess == "White Walker", 2, Score))
-
-df %>% 
-  group_by(Player) %>% 
+         Score = ifelse(Actual == "White Walker" & Guess == "White Walker", 2, Score)) %>% 
+  group_by(Episode, Player) %>% 
   summarise(Score = sum(Score, na.rm = T)) %>% 
   arrange(desc(Score)) %>% 
+  spread(Episode, Score) %>% 
   kable
 ```
 
@@ -37,7 +37,7 @@ df %>%
 
 ```{r echo=FALSE, message=F, warning=F}
 read_csv("Data.csv") %>% 
-  select(-Actual) %>% 
+  select(-contains("Episode")) %>% 
   kable
 ```
 

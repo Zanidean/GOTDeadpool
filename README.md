@@ -12,18 +12,19 @@ Game of Thrones Deadpool
 
   - 1st: `$15`
   - 2nd: `$10`
-  - 3rd: `$5`
+  - 3rd:
+`$5`
 
 #### Current Standings:
 
-| Player | Score |
-| :----- | ----: |
-| Regan  |    24 |
-| Jeremy |    17 |
-| Nolan  |    15 |
-| Alex   |    11 |
-| Joalee |    11 |
-| Carly  |    10 |
+| Player | Episode 1 | Episode 2 | Episode 3 | Episode 4 | Episode 5 | Episode 6 |
+| :----- | --------: | --------: | --------: | --------: | --------: | --------: |
+| Alex   |        11 |         0 |         0 |         0 |         0 |         0 |
+| Carly  |        10 |         0 |         0 |         0 |         0 |         0 |
+| Jeremy |        17 |         0 |         0 |         0 |         0 |         0 |
+| Joalee |        11 |         0 |         0 |         0 |         0 |         0 |
+| Nolan  |        15 |         0 |         0 |         0 |         0 |         0 |
+| Regan  |        24 |         0 |         0 |         0 |         0 |         0 |
 
 #### Guesses:
 
