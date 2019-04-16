@@ -6,10 +6,10 @@ output: github_document
 #### Current Standings
 
 ```{r echo=FALSE, message=F, warning=F}
-library(sRa)
-library(readxl)
+library(tidyverse)
 library(knitr)
-df = read_excel("Data/Raw/Track Sheet GOT.xlsx") %>% 
+
+df = read_csv("Data.csv") %>% 
   gather(Player, Guess, -Character, -Actual) %>% 
   mutate(Score = ifelse(Actual == Guess, 1, 0))
 
@@ -19,4 +19,6 @@ df %>%
   arrange(desc(Score)) %>% 
   kable
 ```
+
+Last generated: ```r Sys.Date()```
 
