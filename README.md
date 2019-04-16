@@ -3,7 +3,7 @@ Game of Thrones Deadpool
 
 #### Rules:
 
-  - 1 point given to each player for Correctly determining each
+  - 1 point given to each player for correctly determining each
     character’s end.
   - An extra point will be rewarded for correctly guessing if they are
     turned to a White Walker.
